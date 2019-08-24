@@ -1,0 +1,8 @@
+{
+  "success": true,
+  "data": {
+    "id": 1,
+    "title": "Python常见web框架汇总",
+    "content": "<img src='https://upload-images.jianshu.io/upload_images/1293367-fce25783a773bab0.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp'<p><b>框架让开发更轻松</b></p><p>今天，有着大量的Python框架，它们可以让web应用的开发更轻松。这些框架把不同的模块集成在一起，让你更快的构架程序，而不用关注一些细节（例如socket和协议），框架提供了需要的所有功能。</p> "
+  }
+}
