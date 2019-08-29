@@ -7,6 +7,8 @@ import Detail from './pages/detail/loadable';
 import Login from './pages/login';
 import Write from './pages/write';
 import store from './store';
+import { GlobalStyle } from './style';
+import { GlobalIcon } from './statics/iconfont/iconfont.js';
 
 
 class App extends Component {
@@ -15,7 +17,9 @@ class App extends Component {
       <Provider store={store}>
         <BrowserRouter>
           <div>
-            <Header />
+            <GlobalStyle/>
+            <Header/>
+            <GlobalIcon/>
             <Route path='/' exact component={Home}></Route>
             <Route path='/login' exact component={Login}></Route>
             <Route path='/write' exact component={Write}></Route>
